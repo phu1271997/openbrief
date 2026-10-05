@@ -13,7 +13,7 @@ backer. No editor, server, or oracle holds the keys.
 
 | | |
 |---|---|
-| **Live app** | https://openbrief.vercel.app _(set after first Vercel deploy)_ |
+| **Live app** | https://openbrief-cyan.vercel.app |
 | **Contract** | [`0x51d7D8F697b9C6736ccDdec98eD481bc578b3C32`](https://explorer-studio.genlayer.com/address/0x51d7D8F697b9C6736ccDdec98eD481bc578b3C32) |
 | **Network** | GenLayer **studionet**, chain id `61999` (Studio-hosted → Explorer status *Preview*) |
 | **Repo** | https://github.com/phu1271997/openbrief |
