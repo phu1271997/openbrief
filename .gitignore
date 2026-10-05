@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+dist/
+.vite/
+.env
+.env.local
+.env.*.local
+.DS_Store
+.idea/
+.vscode/
+artifacts/
+*.tsbuildinfo
+.vercel

@@ -1,0 +1,22 @@
+# Network config for optional on-chain runs. The offline suite in tests/ does
+# not use this file — it runs the contract source against an in-process stub and
+# needs no network. Supply a funded Studionet key via the git-ignored .env to
+# run anything on-chain.
+networks:
+  default: studionet
+  studionet:
+    id: 61999
+    url: https://studio.genlayer.com/api
+    chain_type: studionet
+    default_wait_interval: 4000
+    default_wait_retries: 100
+  localnet:
+    id: 61999
+    url: http://127.0.0.1:4000/api
+    chain_type: localnet
+    default_wait_interval: 1000
+    default_wait_retries: 40
+paths:
+  contracts: contracts
+  artifacts: artifacts
+environment: .env
